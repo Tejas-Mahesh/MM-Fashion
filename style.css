@@ -51,6 +51,10 @@ img{
 .wrap{
     flex-wrap: wrap;
 }
+.seconadry-bg{
+    background: var(--seconadry-clr);
+    padding-block: 2.2rem;
+}
 /*navbar styling */
 header{
     background: var(--seconadry-clr);
@@ -269,4 +273,49 @@ del{
     padding:.2rem 1.3rem;
     background: var(--tag-clr);
     color: var(--white-clr);
+}
+.sale-container{
+    padding-block: 5rem;
+    text-align:center;
+    background: url(images/sale-image.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.sale-container h3{
+    font-weight: 200;
+    font-size: 1.59rem;
+    line-height: 1.6rem;
+    text-transform: uppercase;
+}
+.sale-container h1{
+    font-size: 3.2rem;
+    font-weight: 500;
+    line-height: 4.7rem;
+    color: var(--black-clr);
+}
+.sale-container h4{
+    font-size: 1.5rem;
+    color:#6e6e6e;
+    line-height: 3rem;
+}
+.box{
+    flex:1;
+    text-align: center;
+    margin-block:1rem;
+    flex-basis:200px;
+}
+.box .fa-solid{
+    font-size: 1.5rem;
+    color: var(--primary-clr);
+}
+h5{
+    font-size: 1.1rem;
+    color: var(--light-black);
+    font-weight: 500;
+    line-height: 2rem;
+}
+.des{
+    color:#6e6e6e;
+    font-size:.9rem;
+    font-weight: 400;
 }
