@@ -10,6 +10,11 @@ html{
 }
 :root{
     --white-clr:#fff;
+    --black-clr:#000;
+    --light-black:#333;
+    --primary-clr:#e6303d;
+    --seconadry-clr:#eee;
+    --tag-clr:#7cc576;
    
 }
 /* basic styling */
