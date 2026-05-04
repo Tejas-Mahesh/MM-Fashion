@@ -107,11 +107,6 @@ span,
     color: var(--primary-clr);
     display: none;
 }
-
-/* section style */
-.hero{
-   
-}
 .hero-content{
     height:100%;
     justify-content: flex-end;
