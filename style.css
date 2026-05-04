@@ -110,11 +110,7 @@ span,
 
 /* section style */
 .hero{
-    height: 115vh;
-    background:url("images/hero-image.jpg") no-repeat;
-    background-position: center center;
-    background-size: cover;
-    margin-top: 5.5rem;
+   
 }
 .hero-content{
     height:100%;
