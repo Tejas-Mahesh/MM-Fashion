@@ -302,10 +302,7 @@ del{
     color: var(--primary-clr);
 }
 h5{
-    font-size: 1.1rem;
-    color: var(--light-black);
-    font-weight: 500;
-    line-height: 2rem;
+    
 }
 .des{
     color:#6e6e6e;
