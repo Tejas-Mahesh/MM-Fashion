@@ -292,6 +292,10 @@ del{
     line-height: 3rem;
 }
 .box{
+    flex:1;
+    text-align: center;
+    margin-block:1rem;
+    flex-basis:200px;
 
 }
 .box .fa-solid{
