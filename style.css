@@ -58,7 +58,13 @@ img{
 }
 /*navbar styling */
 header{
-   
+    background: var(--seconadry-clr);
+    position:fixed;
+    top:0;
+    left:0;
+    right: 0;
+    z-index: 98;
+    box-shadow: 0px 5px 14.25px .75px rgba(35,11,12,.06);
 }
 .logo{
     font-size: 1rem;
