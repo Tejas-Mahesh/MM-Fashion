@@ -211,6 +211,31 @@ img{
     opacity:.2;  
     transition:all .6 ease-in-out; 
 }
+.sale::before{
+    content:'sale';
+    position: absolute;
+    top:20px;
+    left:20px;
+    padding:.2rem 1.3rem;
+    background: var(--primary-clr);
+    color: var(--white-clr);
+}
+.new::before{
+    content:'new';
+    position: absolute;
+    top:20px;
+    left:20px;
+    padding:.2rem 1.3rem;
+    background: var(--tag-clr);
+    color: var(--white-clr);
+}
+.sale-container{
+    padding-block: 5rem;
+    text-align:center;
+    background: url(images/sale-image.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+}
 h2{
     font-size: 2rem;
     line-height: 4rem;
